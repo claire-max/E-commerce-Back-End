@@ -24,16 +24,30 @@
   ## Installation
   1. Download the starter code from GitHub.
   2. Install dependencies using "npm install" 
-  3. Now you are ready to use!
+  3. Connect to MySQL database:
+  ``` mysql -u root -p``` 
+  * Create the database schema
+  ```source db/schema.sql;```
+  * Exit the database
+  ``` exit```
+  * Populate the database
+  ``` npm run seed```
+  * Start the server
+  ```$ node server```
+  4. Now you are ready to use on Insomnia!
 
   ## Walk Through
 
-  [Walk Through ](https://drive.google.com/file/d/12EhbCeqzWaRp8otN6Qayg6x1szQvZVJu/view)
+  [Walk Through ](https://drive.google.com/file/d/1TUgBx4MeHJRBEI9tIOLgIwQzhftozvP4/view)
 
   ## Usage
+  This E-commerce back end application is used to 
+  get data for each route and POST, PUT, and DELETE data in those routes.
+
+
   
    
-  ![e-commercedemo](./Assets/e-commercedemo.gif)
+  ![Alt Text](./e-commercedemo.gif)
 
   ## Questions?
   ### Reach me here: 
